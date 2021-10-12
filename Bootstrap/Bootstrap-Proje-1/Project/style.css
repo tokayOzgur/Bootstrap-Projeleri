@@ -1,0 +1,207 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.76);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#baslik {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: red !important;
+}
+
+#baslik:hover {
+    color: rgb(209, 4, 4) !important;
+}
+
+.navbar ul li a {
+    color: #fff !important;
+    font-size: 18px !important;
+    margin-right: 10px !important;
+    display: inline-block;
+    transition: 0.6s;
+}
+
+.navbar ul li a:hover {
+    transition: 0.5s;
+    border-radius: 80%;
+    padding: 20px;
+    background-color: rgb(97, 107, 248);
+}
+
+.navbar i {
+    color: #fff;
+    font-size: 25px;
+}
+
+.banner {
+    height: 100vh;
+    /* Ekranı 100% kaplar */
+
+    background: url(../images/banner.jpg);
+    /* background-position: 0 60px; */
+    background-size: cover;
+}
+
+.banner-icerik {
+    position: relative;
+    max-width: 1000px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+}
+
+.banner-icerik h1 {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.banner-icerik a {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.part1 {
+    margin-top: 80px;
+}
+
+.part1 h2 {
+    color: #e5474b;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.part1 p {
+    line-height: 30px;
+}
+
+.part1 a {
+    color: #e5474b;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.part1 a:hover {
+    color: #e5474b;
+    background-color: azure;
+}
+
+.part2 {
+    margin-top: 80px;
+}
+
+.part2 .col-md-6:nth-child(1) {
+    background-color: rgb(221, 215, 215);
+    padding: 100px 50px;
+}
+
+.part2 .col-md-6:nth-child(2) {
+    background-color: rgb(228, 226, 226);
+    padding: 100px 50px;
+}
+
+.part2 h3 {
+    color: #e5474b;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.part2 img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.part2 p {
+    line-height: 30px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.part3 {
+    margin-top: 80px;
+}
+
+.part3 i {
+    display: block;
+    text-align: center;
+    font-size: 5rem;
+    padding: 35px;
+    color: #aaa;
+}
+
+.part3 h5 {
+    color: #e5474b !important;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.part3 p {
+    line-height: 30px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #171717;
+    text-align: justify;
+}
+
+.part4 {
+    margin-top: 80px;
+    background: #e5474b;
+    color: #fff;
+    padding-top: 80px;
+}
+
+.part4 h5 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.part4 input[type="text"] {
+    background: none;
+    border: 2px solid #ff747d;
+    color: #fff;
+}
+
+
+.part4 input[type="text"]:focus {
+    border: 3px solid white;
+    box-shadow: none;
+}
+
+.part4 textarea {
+    background: none;
+    border: 2px solid #ff747d;
+    color: #fff !important;
+}
+
+
+.part4 textarea:focus {
+    background-color: transparent;
+    border: 3px solid white;
+    box-shadow: none;
+}
+
+@media screen and (max-width:992px) {
+    .banner {
+        height: 70vh;
+    }
+}

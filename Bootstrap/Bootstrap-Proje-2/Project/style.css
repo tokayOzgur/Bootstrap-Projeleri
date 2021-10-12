@@ -1,0 +1,404 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", "sans-serif";
+}
+
+.banner .slide img {
+    height: 100vh;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto !important;
+    max-width: 400px;
+    margin: auto;
+}
+
+.carousel span {
+    font-size: 14px;
+}
+
+.carousel h5 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.carousel p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.carousel a {
+    border-radius: 15px !important;
+}
+
+@media screen and (max-width:992px) {
+    .banner .slide img {
+        height: 70vh;
+    }
+}
+
+/* Menü */
+.menu {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    max-width: 1000px;
+}
+
+.navbar-brand {
+    font-family: 'Norican', cursive;
+    font-size: 40px !important;
+}
+
+.navbar a {
+    color: wheat;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.active {
+    background-color: wheat !important;
+    color: #121212 !important;
+}
+
+.black {
+    color: black !important;
+}
+
+@media screen and (max-width:992) {
+    .menu {
+        background-color: wheat;
+    }
+
+    .navbar a {
+        color: black !important;
+    }
+}
+
+/* Sections */
+.bolum1 {
+    background: #f2f2f2;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.bolum1 h3 {
+    font-size: 17px;
+    color: #121212;
+    font-weight: 700;
+}
+
+.bolum1 .cizgi {
+    width: 60px;
+    height: 3px;
+    background-color: #121212;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.bolum1 .icerik {
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.bolum1 i {
+    font-size: 32px;
+    color: #298f01;
+}
+
+.bolum1 h6 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+
+.bolum1 p {
+    font-size: 13px;
+    color: #5a5a5a;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.bolum1 .icerik:hover {
+    background-color: #298f01;
+    color: white;
+}
+
+.bolum1 .icerik:hover i {
+    color: white;
+}
+
+.bolum1 .icerik:hover p {
+    color: white;
+}
+
+/* Bölüm2 */
+.bolum2 {
+    background: url("../Images/what-we-do-bg.png");
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.bolum2 h4 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.bolum2 p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+.bolum2 .btn {
+    border-radius: 25px;
+    margin: 40px 0;
+}
+
+.bolum2 img {
+    width: 100%;
+}
+
+/* Bölüm3 */
+
+.bolum3 {
+    background: #f2f2f2;
+    padding: 80px 0;
+}
+
+.bolum3 .cizgi {
+    width: 90px;
+    height: 3px;
+    background: #121212;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.bolum3 h3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.bolum3 a {
+    color: #5a5a5a !important;
+}
+
+.bolum3 .active {
+    color: #6e8a0a !important;
+    background: none;
+}
+
+.bolum3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.bolum3 .kapsayici {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.bolum3 .hover-efekt {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #6e8a0a;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.bolum3 .hover-efekt i {
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    background-color: #fff;
+    color: #6e8a0a;
+}
+
+.bolum3 .kapsayici:hover .hover-efekt {
+    opacity: 0.7;
+}
+
+/* Bölüm 4 */
+.bolum4 {
+    padding: 80px 0;
+    background: url("../Images/blog-bg.png");
+    background-size: cover;
+}
+
+.bolum4 h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.bolum4 .cizgi {
+    width: 80px;
+    height: 3px;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.bolum4 img {
+    width: 100%;
+}
+
+.bolum4 .resim {
+    position: relative;
+}
+
+.bolum4 .resimyazi {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+}
+
+.bolum4 h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: .5px;
+}
+
+.bolum4 span {
+    font-size: 12px;
+    color: #fff;
+}
+
+/* Bölüm5 */
+.bolum5 {
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.bolum5 .etiket p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #a2cf8d;
+}
+
+.bolum5 .etiket span {
+    margin-top: 10px;
+    font-size: 13px;
+    letter-spacing: .5px;
+    color: #7a7a7a;
+}
+
+/* Footer */
+footer {
+    background: url("../Images/contact-bg.png");
+    background-size: cover;
+    margin-top: 80px;
+    padding-top: 80px;
+}
+
+footer h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+footer .cizgi {
+    width: 60px;
+    height: 3px;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer input {
+    color: #fff;
+    font-size: 13px;
+    background-color: rgba(250, 250, 250, .1);
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+footer textarea {
+    color: #fff;
+    font-size: 13px;
+    background-color: rgba(250, 250, 250, .1);
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+/* AltBölüm */
+footer .altBolum {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px;
+    background: #000;
+    margin-top: 50px;
+}
+
+footer .altBolum p {
+    font-size: 12px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+footer .altBolum i {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    background: #a2cf8d;
+    border-radius: 100%;
+    line-height: 36px;
+    text-align: center;
+    margin-right: 10px;
+}
